@@ -1,7 +1,39 @@
-html {
-  max-width: 720px;
+p {
+  background: yellow
 }
 
-body {
-  background: #fff;
+.card > p {
+  color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 0.2px blue;
+
+  /* writing-mode: vertical-lr; */
+  /* text-align: center; */
+  text-transform: uppercase;
+}
+
+p:hover {
+  -webkit-text-fill-color: rgb(34, 255, 0);
+  -webkit-text-stroke: 0.4px rgb(2, 23, 26);
+
+  direction: rtl;
+}
+
+pre {
+  color: blueviolet;
+  tab-size: 7;
+  letter-spacing: 10px;
+  text-decoration: underline dotted red;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-display: swap;
+}
+
+pre {
+	font-size: larger;
+	font-weight: 650;
+	font-style: italic;
 }
